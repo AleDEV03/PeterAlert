@@ -19,7 +19,7 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 import pygame
-import os  # Importa os para manejar rutas
+import os
 
 pygame.mixer.init()
 
