@@ -48,9 +48,8 @@ print(""" Hey Lois, im an python script!
 root = tk.Tk()
 root.title("Peter Alert!")
 root.geometry("260x180")
-root.resizable(False, False)  # Hace que la ventana no sea redimensionable
+root.resizable(False, False) 
 
-# Busca el icono en la misma carpeta que el script
 icon_path = os.path.join(os.path.dirname(__file__), "peter1.ico")
 if os.path.exists(icon_path):
     root.iconbitmap(icon_path)
